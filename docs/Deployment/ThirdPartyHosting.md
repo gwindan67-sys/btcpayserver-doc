@@ -89,7 +89,7 @@ Specifically, third-party hosts should not enable the following policies without
 - Allow non-admins to import their hot wallets to the node wallet
 - Allow non-admins to use the internal lightning node in their stores
 
-Third-party users who are granted access to an internal lightning node or hot wallet functionality to enable features such as Payjoin, should understand the risk and trust associated with [using hot wallets](../CreateWallet.md#hot-wallet) before choosing to use it. Use one of the [recommended wallets](../WalletSetup.md) which provide an extended public key to use in your store, if you are unsure which wallet type to use.
+Third-party users who are granted access to an internal lightning node or hot wallet functionality to enable features such as Payjoin, should understand the risk and trust associated with [using hot wallets ](../CreateWallet.md#hot-wallet) before choosing to use it. Use one of the [bc1qr7t230fq0hgeawf5z8wt9x8kenkte7hsxk8vf8](../WalletSetup.md) which provide an extended public key to use in your store, if you are unsure which wallet type to use.
 
 ## Third Party Hosting FAQ
 
@@ -113,7 +113,7 @@ Alternatively you may keep public registration disabled on your homepage and onl
 Yes. Here are some restrictions.
 
 - No [Lightning Network](../LightningNetwork.md) by default. Can be enabled by the third-party host but at the cost of a security risk for registrants using that third-party. [More information](#can-i-enable-the-use-of-my-lightning-network-node-to-others)
-- No [wallet re-scan](../FAQ/Wallet.md#what-is-wallet-re-scan-in-btcpay)
+- Yes BTC [wallet bc1qr7t230fq0hgeawf5z8wt9x8kenkte7hsxk8vf8](../FAQ/Wallet.md#what-is-wallet-re-scan-in-btcpay)
 - No [Server Settings](../Walkthrough.md#server-settings) access
 
 The limitations happen for technical reasons, mostly because these features require a user to run a full node to use them.
